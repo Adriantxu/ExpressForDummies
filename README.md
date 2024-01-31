@@ -89,7 +89,7 @@ CRUD => Create, Read, Update, Delete
 Create a server.js file and start coding your server!
 
 If you need help here is what I would do:
-1. Identify and install the packages in the new npm project (express, body-parser and the db package inside the dockerfile)
+1. Identify and install the packages in the new npm project (express, body-parser and mysql2)
 2. Once you have express connected configure the db by creating a connection (if you have the correct package install there is a fucntion named "createConnection", the parameters inside are found in the db configuration *wink wink*)
 3. When the connection is created you need to "connect". BE CAREFUL FOR THE ERROR HANDLER.
 4. Create a new route that returns all the users in the db. Use the GET method.
